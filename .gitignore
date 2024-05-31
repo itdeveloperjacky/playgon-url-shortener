@@ -1,0 +1,33 @@
+# Ignore .jar files
+*.jar
+*.jar.original
+
+# Existing entries
+target/
+*.class
+*.bak
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+.idea
+*.iws
+*.iml
+*.ipr
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+.vscode/
+
+!.mvn/wrapper/maven-wrapper.jar
+
+HELP.md
