@@ -1,5 +1,3 @@
-# playgon-url-shortener
-
 # URL Shortener
 
 This is a simple assignment that will shorten URL implemented in Java using Spring Boot. 

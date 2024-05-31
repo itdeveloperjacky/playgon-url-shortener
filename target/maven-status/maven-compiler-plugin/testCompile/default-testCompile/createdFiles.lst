@@ -1,0 +1,6 @@
+com\playgon\integration\StatisticsControllerIntegrationTest.class
+com\playgon\controller\UrlShortenerControllerTest.class
+com\playgon\controller\StatisticsControllerTest.class
+com\playgon\integration\UrlShortenerIntegrationTest.class
+com\playgon\PlaygonBackendApplicationTests.class
+com\playgon\service\UrlShortenerServiceImplTest.class

@@ -1,0 +1,11 @@
+com\playgon\PlaygonBackendApplication.class
+com\playgon\service\UrlShortenerServiceImpl.class
+com\playgon\repository\UrlMappingsRepository.class
+com\playgon\config\DataSourceConfig.class
+com\playgon\config\SecurityConfig.class
+com\playgon\service\UrlShortenerService.class
+com\playgon\controller\StatisticsController.class
+com\playgon\model\UrlMappings.class
+com\playgon\model\UrlRequest.class
+com\playgon\controller\UrlShortenerController.class
+com\playgon\model\UrlResponse.class
