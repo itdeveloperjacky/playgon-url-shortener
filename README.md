@@ -78,7 +78,7 @@ You can set these environment variables in your shell or include them in a `.env
    For AWS RDS (Production):
 
     ```sh
-    docker run -e "SPRING_PROFILES_ACTIVE=prod" -e DB_USERNAME=yourUsername -e DB_PASSWORD=yourPassword -e DB_URL=jdbc:mysql://your-rds-endpoint:3306/your-database -p 8082:8081 url-shortener:latest
+    docker run -e "SPRING_PROFILES_ACTIVE=prod" -e DB_URL=url -e DB_USERNAME=yourUsername -e DB_PASSWORD=yourPassword -e DB_URL=jdbc:mysql://your-rds-endpoint:3306/your-database -p 8082:8081 url-shortener:latest
     ```
 
 ### Access the Application
