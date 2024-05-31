@@ -11,6 +11,13 @@ import java.util.Optional;
 
 /**
  * Service implementation for URL shortening and retrieval.
+ * This service uses the Resilience4j library to implement a circuit breaker pattern,
+ * which helps in handling failures gracefully and improving the resilience of the application.
+ *
+ * The circuit breaker pattern prevents an application from repeatedly trying to execute an operation
+ * that is likely to fail, allowing it to recover more quickly and providing fallback methods for
+ * handling failures. In this implementation, circuit breakers are applied to the methods responsible
+ * for creating short URLs and retrieving the original URLs.
  */
 @Service
 public class UrlShortenerServiceImpl implements UrlShortenerService {
